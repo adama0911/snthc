@@ -1,0 +1,81 @@
+.body-bd-pubscontainer-pubs{
+  border-bottom: 0.5px solid rgba(161, 161, 161, 0.699);
+  padding-bottom: 1rem;
+}
+
+.body-bd-pubscontainer-pubs-pub{
+   margin-top: 1rem;
+}
+.body-bd-pubscontainer-pubs-pub img{
+  width: 98%;
+  min-width: 98%;
+  min-height: 14rem;
+  height: 14rem;
+  border-radius: 1rem;
+  margin-left:1%;
+}
+
+.body-bd-pubscontainer-followings{
+   margin-top: 1rem;
+}
+
+.body-bd-pubscontainer-following-follow {
+  margin-bottom:1rem;
+}
+
+.body-bd-pubscontainer-following-follow-avatar img{
+  width: 100%;
+  min-width: 100%;
+  border-radius: 4px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.body-bd-pubscontainer-following-others p{
+  text-align: center;
+}
+
+.body-bd-pubscontainer-following-follow-dec p{
+   font-size: x-small;
+   padding: 0px;
+   margin: 0px;
+}
+
+.body-bd-pubscontainer-following-follow-button a{
+  font-size: 1.5rem;
+  text-align: center
+}
+
+
+/* errrrrrrrrrrr */
+
+.body-bd-pubscontainer-add-users{
+  margin-top: 1rem;
+}
+
+.body-bd-pubscontainer-add-users-follow {
+ margin-bottom:1rem;
+}
+
+.body-bd-pubscontainer-add-users-follow-avatar img{
+ width: 100%;
+ min-width: 100%;
+ border-radius: 4px;
+ margin: 0px;
+ padding: 0px;
+}
+
+.body-bd-pubscontainer-add-users-others p{
+ text-align: center;
+}
+
+.body-bd-pubscontainer-add-users-follow-dec p{
+  font-size: x-small;
+  padding: 0px;
+  margin: 0px;
+}
+
+.body-bd-pubscontainer-add-users-follow-button a{
+ font-size: 1.5rem;
+ text-align: center
+}

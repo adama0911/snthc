@@ -1,0 +1,82 @@
+
+.body-bd-postscontainer-post{
+  border-radius: 0.5rem;
+  background-color:white;
+}
+
+.post-head{
+  padding: 1rem;
+}
+
+.post-head-desc{
+  padding-left: 3rem;
+}
+.post-head-avatar img{
+  width: 4rem;
+  height:4rem;
+  border-radius: 2rem;
+}
+
+.post-head-desc-profession p,.post-head-desc-date p,.post-head-desc-name p{
+  font-size: small;
+  padding: 0px;
+  margin: 0px;
+}
+
+.post-img-movie{
+  width: 98%;
+  min-width: 98%;
+  text-align: center;
+}
+
+.post-img-movie img{
+  width: 96%;
+  min-height: 96%;
+}
+
+.post-text{
+  font-size: small
+}
+
+.post-notifications{
+  font-size: x-small;
+}
+
+.post-notifications .list-inline{
+  width: 96%;
+  margin-left:2%;
+  margin-top: 1rem;
+  padding-bottom:0.5rem;
+  border-bottom: 0.5px solid rgba(161, 161, 161, 0.699);
+}
+
+
+.post-notificatif .list-inline{
+  width: 96%;
+  margin-left:2%;
+  margin-top: 0.1rem;
+  padding-bottom:0.5rem;
+}
+
+.post-notificatif .list-inline li{
+  margin-right: 2rem;
+}
+
+.post-edit{
+  width: 99%;
+  margin-left:1%;
+  margin-bottom: 1rem;
+}
+
+.post-edit input{
+  border-radius: 1rem;
+}
+
+.post-edit i{
+  font-size: 1.5rem;
+  margin-top: 0.4rem;
+}
+
+.post-edit col-1{
+   text-align: center;
+}

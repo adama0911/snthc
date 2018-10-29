@@ -1,0 +1,41 @@
+
+.body-bd-postscontainer{
+  padding: 2rem;
+  width: 100%;
+}
+
+
+.body-bd-pubscontainer{
+  background-color: white;
+  margin-top: 2rem;
+}
+
+
+.body-bd-pubscontainer-chatting {
+  position: fixed;
+  width: 5%;
+  right: 0px;
+  top: 4rem;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.body-bd-pubscontainer-chatting .row{
+  text-align: center;
+  margin-top:2rem;
+}
+
+.body-bd-pubscontainer-chatting .row span{
+  position: absolute;
+  top: 0px;
+  left: 1rem;
+  background-color: white;
+  color: #DC143C;
+  padding: 0.2rem;
+  border-radius: 2rem;
+  font-size: x-small;
+}
+
+.body-bd-pubscontainer-chatting  i{
+  font-size: 2rem;
+}

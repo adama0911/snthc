@@ -1,0 +1,62 @@
+.container{
+  min-width: 100%;
+  min-height: 700px;
+  width: 100;
+  margin: 0%;
+  padding: 0%;
+  background-image: url("../../../assets/images/auth.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.img-login{
+   margin-top: 2rem;
+}
+
+.form-group{
+   text-align: center !important;
+   margin-top: 2rem;
+}
+
+.logo{
+   width: 15rem;
+}
+
+p{
+    text-align: center;
+ }
+
+p a{
+   color: red;
+}
+
+.form-control{
+  background: rgba(255,255,255,0.3);
+
+  border: 1px solid white !important;
+
+  color: black;
+
+  text-decoration-color: #36A0E0;
+}
+
+.login-container{
+   border: 1px solid white;
+   background-color: rgba(255, 255, 255, 0.3);
+   margin-top: 5rem;
+   border-radius: 1rem;
+}
+
+h1{
+  text-align: center;
+}
+
+.register-container{
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: 5rem;
+  border-radius: 1rem;
+}
+
+

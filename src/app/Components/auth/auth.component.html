@@ -1,0 +1,78 @@
+<div class="container">
+    <div class="row">
+        <!--
+            --------- Login ---------------------------------------------
+        -->
+        <div class="offset-3 col-6 login-container" *ngIf="this.section==1" >
+            <div class="form-group row">
+              <div class="offset-1 col-10 img-login">
+                  <img src="../../../assets/images/sntechmetalic.png" alt="" class="logo">
+              </div>
+            </div>
+            <div class="form-group row">
+                <div class="offset-1 col-10">
+                    <input [(ngModel)]="this.nom" type="text" class="form-control" id="usr" placeholder="login">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="offset-1 col-10">
+                    <input [(ngModel)]="this.password" type="password" class="form-control" id="pwd" placeholder="password">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="offset-1 col-10">
+                    <button type="button" class="btn btn-info" (click)="longin()">valider</button>
+                </div>
+            </div>
+            <p><a href="#" (click)="this.section=2">S'inscrire</a></p>
+        </div>
+        <!--
+            --------- Sinup ---------------------------------------------
+        -->
+        <div class="offset-2 col-8 register-container" *ngIf="this.section==2">
+            <div class="form-group row">
+              <div class="offset-1 col-10 img-login">
+                  <img src="../../../assets/images/sntechmetalic.png" alt="" class="logo">
+              </div>
+            </div>
+            <div class="form-group row">
+                <div class="offset-1 col-4">
+                    <input [(ngModel)]="this.nom" type="text" class="form-control" id="nom" placeholder="nom">
+                </div>
+                <div class="offset-1 col-4">
+                  <input [(ngModel)]="this.prenom" type="text" class="form-control" id="prenom" placeholder="prenom">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="offset-1 col-4">
+                    <input [(ngModel)]="this.email" type="email" class="form-control" id="email" placeholder="E-mail">
+                </div>
+                <div class="offset-1 col-4">
+                  <input [(ngModel)]="this.phone" type="number" class="form-control" id="phone" placeholder="téléphone">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="offset-1 col-4">
+                    <input [(ngModel)]="this.pays" type="text" class="form-control" id="pwd" placeholder="pays">
+                </div>
+                <div class="offset-1 col-4">
+                  <input [(ngModel)]="this.profession" type="text" class="form-control" id="profession" placeholder="proféssion">
+                </div>
+            </div>
+
+            <div class="form-group row">
+              <div class="offset-1 col-4">
+                  <input [(ngModel)]="this.pwd1" type="text" class="form-control" id="pwd" placeholder="mot de passe">
+              </div>
+              <div class="offset-1 col-4">
+                <input [(ngModel)]="this.pwd2" type="text" class="form-control" id="pwd2" placeholder="confirmer mot de passe">
+              </div>
+          </div>
+            <div class="form-group row">
+                <div class="offset-1 col-10">
+                    <button type="button" class="btn btn-info">valider</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
