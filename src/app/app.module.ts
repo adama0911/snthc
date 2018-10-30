@@ -5,7 +5,7 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import {Routing} from './app.routing';
-
+import { SelectModule } from 'ng2-select';
 
 /*---------------------------- Service ------------------------------------------ */
 import { LoginService } from './Services/login.service';
@@ -39,6 +39,7 @@ import { HomeComponent } from './Components/home/home.component';
     FormsModule,
     HttpClientModule,
     Routing,
+    SelectModule,
   ],
 
   providers: [

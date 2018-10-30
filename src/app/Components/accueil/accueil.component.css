@@ -196,4 +196,37 @@
   min-width: 60%;
   min-height:35rem;
   z-index: 99;
+  border: 2px solid rgba(54, 170, 224, 0.157);
+  border-radius:  0.5rem 0px 0px 0px;
+}
+
+.footer-chatcollaborate-head p{
+  font-size: small;
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-chatcollaborate-head{
+  background-color:rgba(54, 170, 224, 0.609);
+  height: 5%;
+  border-radius:  0.5rem 0px 0px 0px;
+}
+
+.footer-chatcollaborate-head-salon{
+  text-align: center;
+}
+
+.footer-chatcollaborate-head-salon{
+  padding-top:0.5rem;
+}
+
+.footer-chatcollaborate-head-deconection{
+  padding-top:0.6rem;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.footer-chatcollaborate-head-deconection i{
+  float: right;
+  margin-right: 1rem;
 }
